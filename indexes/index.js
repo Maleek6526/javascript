@@ -61,4 +61,7 @@ function squareOfNumbersInAList(array){
 
 
 
+
+
+
 module.exports = {multiply, sum, numberGreaterThanTwo, add, testScoresArray,studentGradeIncrement,squareOfNumbersInAList};

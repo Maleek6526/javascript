@@ -1,4 +1,4 @@
-const {multiply, sum, numberGreaterThanTwo, add, testScoresArray, studentGradeIncrement,squareOfNumbersInAList} = require("./index");
+const {multiply, sum, numberGreaterThanTwo, add, testScoresArray, studentGradeIncrement,squareOfNumbersInAList} = require("../../index");
 
 test("multiply each number by 2", ()=>{
     const arrayOfNumbers = [1,2,3,4,5];
