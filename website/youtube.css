@@ -1,302 +1,32 @@
 body{
-    background-color: black;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    position: fixed;
+    background-color: #000;
 }
 
-.the-http-button{
-    margin-top: 10px;
-    background-color: rgb(73, 73, 73);
+h1,h4,h6,sub{
     color: white;
-    margin-left: 15rem;
-    height: 20px;
-    width: 90rem;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+}
+.logo-section{
+    padding: 10px;
+    display: flex;
+}
+.youtube{
+    padding-top: 12px;
+    padding-right: 6px;
 }
 
-.website-name{
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 10px;
-    margin-left: 30px;
-    border: none;
-    color: red;
+.search{
+    width: 15rem;
+    padding: 8px;
+    border-radius: 10px;
 }
-
 .search-button{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    margin-left: 16rem;
+    padding: 5px;
     height: 20px;
-    width: 70rem;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    border: none;
+    width: 20px ;
 }
 
-.home{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 30px;
-    width: 10rem;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-right: 3rem;
-    border: none;
-}
 
-.all{
-    background-color:white;
-    color:black;
-    height: 20px;
-    width: 50px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.music{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 50px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;    
-}
-
-.web-development{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 9rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none; 
-}
-
-.Computer-Programming{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 10rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;    
-}
-
-.Comedy-clubs{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 7rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.Contemporary-Worship-Music{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 12rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.african-music{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 7rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;    
-}
-
-.action-thrillers{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 7rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.Mixes{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 50px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.playlist{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.nollywood{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 80px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.sketch-comedy{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 8rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.live{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 40px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.Belief{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 70px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-
-.recently-uploaded{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 20px;
-    width: 10rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    border: none;
-}
-.image-holderr-one{
-    margin-left: 12rem;
+.heading{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.image-holderr-one img{
-    
-    width: 320px;
-    height: 200px;
-    border: 2px solid rgb(56, 51, 51);
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px rgb(83, 73, 73);
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-}
-
-.image-holderr-one img:hover{
-    filter: grayscale(1);
-    transform: scale(1.03);
-}
-
-.image-holder-two{
-    margin-left: 12rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.image-holder-two img{
-    width: 320px;
-    height: 200px;
-    border: 2px solid rgb(56, 51, 51);
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px rgb(83, 73, 73);
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-}
-
-.image-holder-two img:hover{
-    filter: grayscale(1);
-    transform: scale(1.03);
-}
-
-.image-holder-three{
-    margin-left: 12rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.image-holder-three img{
-    margin-left: 10rem;
-    margin-right: 10rem;
-    width: 320px;
-    height: 200px;
-    border: 2px solid rgb(56, 51, 51);
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px rgb(83, 73, 73);
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-}
-
-.image-holder-three img:hover{
-    filter: grayscale(1);
-    transform: scale(1.03);
-}
-
-.shorts{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    height: 30px;
-    width: 10rem;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-right: 3rem;
-    border: none;
+    justify-content: space-between;
 }

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 120rem;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+li {
+    text-decoration: none;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.main-body{
+    border: 1px solid black;
+}
+
+.header{
+    
+}
+
+
